@@ -35,7 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     width:100%;
-    min-height: 100vh;
+    /* max-height: 100vh; */
 }
 
 main {
@@ -53,7 +53,8 @@ img + div {
     margin-left:1.5rem;
 }
 article {
-    padding:3rem;
+    padding-block: 3rem;
+    padding-inline:3rem;
     background-color: var(--Purple500);
     border-radius: 1vw;
     box-shadow: 10px 20px 10px 10px hsl(224, 10%, 45%,0.1);
