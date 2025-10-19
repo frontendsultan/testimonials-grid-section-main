@@ -35,7 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     width:100%;
-    /* max-height: 100vh; */
+    /* min-height: 100vh; */
 }
 
 main {
@@ -117,7 +117,10 @@ p {
     color:var(--Darkblue);
 }
 
-
+.img-quote {
+    position:absolute;
+    left:500px;
+}
 
 @media (min-width:1000px){
 
